@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command CreateSchedules_ChatGPT</Text>
+    <Description>Some description for CreateSchedules_ChatGPT</Description>
+    <Assembly>CreateSchedules_ChatGPT.dll</Assembly>
+    <FullClassName>CreateSchedules_ChatGPT.Command</FullClassName>
+    <ClientId>ee65010e-57ed-43c7-94a0-ab5e2a805fb8</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application CreateSchedules_ChatGPT</Name>
+    <Assembly>CreateSchedules_ChatGPT.dll</Assembly>
+    <FullClassName>CreateSchedules_ChatGPT.App</FullClassName>
+    <ClientId>9e96a2e8-7f5f-4718-be4e-8464b392cbfd</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+</RevitAddIns>
